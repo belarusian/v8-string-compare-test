@@ -12,10 +12,6 @@
     <repository>
       <id>karma-gwt</id>
       <url>https://raw.github.com/belarusian/karma-gwt/mvn-repo/</url>
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>always</updatePolicy>
-      </snapshots>
     </repository>
   </repositories>
 
@@ -106,6 +102,7 @@
               <testModules>
                 <testModule>SlowStringCompare/SlowStringCompare.nocache.js</testModule>
               </testModules>
+              <testBrowser>CHROME</testBrowser>
             </configuration>
             <goals>
               <goal>run-tests</goal>
