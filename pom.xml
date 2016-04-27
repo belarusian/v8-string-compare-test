@@ -15,6 +15,13 @@
     </repository>
   </repositories>
 
+  <pluginRepositories>
+    <pluginRepository>
+      <id>karma-gwt</id>
+      <url>https://raw.github.com/JetBrains/karma-gwt/mvn-repo/</url>
+    </pluginRepository>
+  </pluginRepositories>
+
   <properties>
     <java.source.level>1.7</java.source.level>
     <java.target.level>1.7</java.target.level>
